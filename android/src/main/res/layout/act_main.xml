@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:background="#ffffffff"
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/etUrl"
+                android:textColor="#ff000000"
+                android:layout_width="match_parent"
+                android:gravity="left|top"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:hint="请粘贴验证码url"
+                android:textColorHint="#ff666666"
+                android:paddingBottom="8dp"
+                android:layout_height="100dp"/>
+
+        <TextView
+                android:id="@+id/etCode"
+                android:textColor="#ff000000"
+                android:layout_width="match_parent"
+                android:textSize="14sp"
+                android:gravity="left|top"
+                android:layout_marginTop="16dp"
+                android:hint="请等待验证完成后长按文本或点击按钮复制"
+                android:paddingLeft="16dp"
+                android:textIsSelectable="true"
+                android:paddingRight="16dp"
+                android:textColorHint="#ff666666"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/btnVerify"
+                android:layout_marginTop="16dp"
+                android:textColor="#ff000000"
+                android:text="开始验证"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/btnCopy"
+                android:textColor="#ff000000"
+                android:text="复制ticket"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
