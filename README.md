@@ -1,4 +1,5 @@
-##滑块验证码助手（安卓app和windows安装包两种方式）
+滑块验证码助手（安卓app和windows安装包两种方式）
+
 [下载地址](https://github.com/kr5317/SliderHelper/releases)
 
 **注意：对于使用该工具造成的任何后果不负责任。**
@@ -16,4 +17,4 @@
 [部分项目配置学习于mirai-compose](https://github.com/sonder-joker/mirai-compose)
 
 - 截图  
-<img src="https://github.com/kr5317/SliderHelper/blob/master/screenshot.png" width="50%"/>
+<img src="https://github.com/kr5317/SliderHelper/blob/main/screenshot.png" width="50%"/>
