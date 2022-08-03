@@ -14,3 +14,6 @@
 [Android端验证码实现来自于MiraiAndroid](https://github.com/mzdluo123/MiraiAndroid)
 
 [部分项目配置学习于mirai-compose](https://github.com/sonder-joker/mirai-compose)
+
+- 截图  
+<img src="https://github.com/kr5317/SliderHelper/blob/master/screenshot.png" width="50%"/>
